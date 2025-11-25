@@ -23,6 +23,7 @@ public class Primes {
 
         for (int j = 0; j < nums.length; j++) {
             if (nums[j] == true) {
+                System.out.println(j);
                 count++;
             }
         }
